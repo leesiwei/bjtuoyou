@@ -1,0 +1,39 @@
+﻿/**++++++++ 公共全局样式 ++++++**/
+
+/** 验证样式 **/
+.error{color:Red;}
+label.error,label.info{color:#404040; line-height:20px; margin-left:10px;padding-left:24px; padding-right:10px; display:inline-block; font-size:12px;}
+label.error{background:url(/content/Common/Images/msg_bg.png) no-repeat scroll 4px 2px #FFF2F2;border: 1px solid #FF8080; font-size:12px;}
+label.info{background: url(/content/Common/Images/msg_bg.png) no-repeat scroll 4px -148px #E5F5FF;border: 1px solid #40B3FF; font-size:12px;}
+label.ok{background: url(/content/Common/Images/msg_bg.png) no-repeat scroll 15px -250px; width:50px; vertical-align:middle; height:20px;display:inline-block; border:0; margin-right:10px; font-size:12px;}
+
+/** 分页样式 **/
+.pagination{font-size:80%;}
+        
+.pagination a {text-decoration: none;border: solid 1px #AAE;color: #15B;cursor:pointer;}
+
+.pagination a, .pagination span {display: block;float: left;padding: 0.3em 0.5em;margin-right: 5px;margin-bottom: 5px;min-width:1em;text-align:center;}
+
+.pagination .current {background: #26B;color: #fff;border: solid 1px #AAE;}
+
+.pagination .current.prev, .pagination .current.next{color:#999;border-color:#999;background:#fff;position: relative;}
+
+.clearfix:after{visibility: hidden;display: block;font-size:0;content: " ";clear: both;height: 0;}
+.clearfix{*zoom:1;}
+.list_paging:after{visibility: hidden;display: block;font-size:0;content: " ";clear: both;height: 0;}
+.list_paging{*zoom:1;}
+.list_paging{padding:10px; font-size:12px;}
+.list_number{float:left; }
+.list_pager{float:right;}
+/***时间控件***/
+.list_input{width:120px; vertical-align:middle\9; line-height:20px;}
+/**手型**/
+.hand{cursor:pointer;}
+/**去除默认样式**/
+em{font-style:normal;}
+strong{font-style:normal;}
+/**服务器返回错误**/
+.serverError{color:Red; font-size:12px;}
+
+/***没有数据的表格，提示信息行的样式***/
+.nodata{letter-spacing:1px;color:#eb3c21;padding:2px;font-style:italic;font-size:14px;}
